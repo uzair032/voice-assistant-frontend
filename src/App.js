@@ -25,7 +25,8 @@
 // export default App;
 import React, { useState, useRef } from "react";
 
-const WS_URL = process.env.REACT_APP_WS_URL || "wss://your-hf-space.hf.space/ws";
+// const WS_URL = process.env.REACT_APP_WS_URL || "wss://your-hf-space.hf.space/ws";
+const WS_URL = process.env.REACT_APP_WS_URL || "wss://muzair-010-voice-assistant-backend.hf.space/ws";
 // If using a custom domain for HF, replace above.
 
 export default function App() {
